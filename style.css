@@ -1,0 +1,166 @@
+* {
+    /* border: 1px solid red; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px;
+}
+
+.landing-page-area-one {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-content: flex;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.about-info {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    margin-left: 200px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    height: 60px;
+    top: 0px;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar-brand {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+.navbar-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    height: 100%;
+}
+
+.navbar-item {
+    margin: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: rgb(218, 64, 218)
+}
+
+.background {
+    z-index: -1;
+    width: 100%;
+    position: fixed;
+    margin-top: -100px;
+}
+
+.my-life {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.life-tile {
+    background-color: black;
+    color: white;
+    margin-top: 100px;
+}
+
+
+.young-me {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+
+
+.young-me-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    padding-left: 400px;
+    margin-top: 0px;
+}
+
+
+.adult-me-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    padding-right: 400px;
+    margin-top: 0px;
+}
+
+
+.hobbies-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    padding-left: 400px;
+    margin-top: 0px;
+}
+
+#adult {
+    margin-left: 80%;
+
+}
+
+#future {
+    margin-left: 45%;
+    color: white;
+    margin-bottom: 0%;
+}
+
+.goal-info {
+    background-color: black;
+    color: white;
+    padding-bottom: 50px;
+    padding-top: 80px;
+    margin-top: 0px;
+}
+
+.future-goal-header {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgb(0, 0, 0) 50%);
+}
